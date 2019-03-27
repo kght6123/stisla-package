@@ -11,18 +11,24 @@ preconfigured:
 
 ## Useful commands
 
-Install dependencies
+Install dependencies. `npm install` gives an error. https://github.com/npm/npm/issues/20824
 
-    npm install
+    yarn install
 
 Run unit tests
 
-    npm test
+    yarn test
 
 Build everything (outputs will live in `build/`-directory)
 
-    npm run build
+    yarn run build
 
 Start development server with hot reloading (open `http://0.0.0.0:4809/` and find your way through the directory listing)
 
-    npm start
+    yarn start
+
+## Git Submodule
+
+include forked stisla.
+
+    git submodule add https://github.com/kght6123/stisla.git stisla

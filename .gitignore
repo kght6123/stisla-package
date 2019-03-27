@@ -10,7 +10,7 @@ node_modules
 .npm
 
 # Build folder
-build
+dist
 
 # Docs folder
 docs
