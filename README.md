@@ -1,12 +1,5 @@
 # stisla-package
 
-[![Build Status](https://travis-ci.org/terrestris/node-project-template.svg?branch=master)](https://travis-ci.org/terrestris/node-project-template)
-[![Coverage Status](https://coveralls.io/repos/github/terrestris/node-project-template/badge.svg?branch=master)](https://coveralls.io/github/terrestris/node-project-template?branch=master) 
-[![dependencies Status](https://david-dm.org/terrestris/node-project-template/status.svg)](https://david-dm.org/terrestris/node-project-template)
-[![devDependencies Status](https://david-dm.org/terrestris/node-project-template/dev-status.svg)](https://david-dm.org/terrestris/node-project-template?type=dev)
-[![Greenkeeper badge](https://badges.greenkeeper.io/terrestris/node-project-template.svg)](https://greenkeeper.io/)
-[![license: 2-Clause BSD](https://img.shields.io/badge/license-2--Clause%20BSD-brightgreen.svg)](https://opensource.org/licenses/BSD-2-Clause)
-
 A simple node project template. This can be used as a starting point for
 libraries or projects depending on OpenLayers where the following is already
 preconfigured:
