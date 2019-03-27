@@ -21,7 +21,7 @@ Run unit tests
 
 Build everything (outputs will live in `build/`-directory)
 
-    yarn run build
+    yarn run build:js # node_modules/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.js:11のjQueryをjqueryに修正
 
 Start development server with hot reloading (open `http://0.0.0.0:4809/` and find your way through the directory listing)
 
@@ -32,3 +32,12 @@ Start development server with hot reloading (open `http://0.0.0.0:4809/` and fin
 include forked stisla.
 
     git submodule add https://github.com/kght6123/stisla.git stisla
+
+## npm publish
+
+```sh
+$ git tag -a v1.0.0 -m "stisla package version v1.0.0"
+$ git push origin tags/v1.0.0
+$ npm publish ./
+$ npm install stisla-package
+```
