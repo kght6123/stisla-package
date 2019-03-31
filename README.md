@@ -19,13 +19,13 @@ Run unit tests
 
     yarn test
 
-Build everything (outputs will live in `build/`-directory)
+Build everything (outputs will live in `dist/`-directory)
 
     yarn run build:js # node_modules/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.js:11のjQueryをjqueryに修正
 
-Start development server with hot reloading (open `http://0.0.0.0:4809/` and find your way through the directory listing)
+Start development server with hot reloading (open `http://0.0.0.0:4809/js/index.html` and find your way through the directory listing)
 
-    yarn start
+    yarn run start
 
 ## Git Submodule
 

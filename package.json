@@ -26,7 +26,7 @@
     "coveralls": "cat coverage/lcov.info | coveralls",
     "test:watch": "karma start karma.conf.js",
     "lint": "eslint --ext js,html,md example-templates/ examples/ src/ spec/",
-    "start": "webpack-dev-server --config webpack.examples.config.js --content-base ./build/ --hot",
+    "start": "webpack-dev-server --config webpack.examples.config.js --content-base ./dist/ --hot",
     "build:examples": "node tasks/build-examples.js",
     "build:docs": "jsdoc --package ./package.json --readme ./README.md -c .jsdoc",
     "build:js": "webpack --config webpack.development.config.js && webpack -p --config webpack.production.config.js",
@@ -112,6 +112,6 @@
     "mocha": "5.1.1",
     "rimraf": "2.6.2",
     "webpack": "3.11.0",
-    "webpack-dev-server": "3.1.4"
+    "webpack-dev-server": "2.7.1"
   }
 }
